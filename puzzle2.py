@@ -9,8 +9,6 @@ import resource
 from collections import deque
 
 
-
-#### SKELETON CODE ####
 ## The Class that Represents the Puzzle
 class PuzzleState(object):
     """
@@ -39,7 +37,6 @@ class PuzzleState(object):
         # Get the index and (row, col) of empty block
         self.blank_index = self.config.index(0)
 
-    #Added By Safeyah
     def __lt__(self, other):
         return calculate_total_cost(self) < calculate_total_cost(other)
 
