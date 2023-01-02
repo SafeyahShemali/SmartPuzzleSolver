@@ -15,14 +15,14 @@ This program shows the follwing:
 * Depth of the search
 * Time and Memory Consumtion
 
-## Getting Started
+## Getting Started 🚀
 
 ### Dependencies
 
 * Language/Version: python 3.9
 * Libraries: sys, math, time, heapq, resource, collections(deque)
 
-### Executing program
+### Executing program 👩🏻‍💻
 
 * The program will be executed in the following format: 
 ```
@@ -33,7 +33,7 @@ $ python3 puzzle.py <method> <board>
 $ python3 puzzle.py ast 1,3,4,5,7,0,8,2
 ```
 
-## Acknowledgments
+## Acknowledgments ❇️
 
 * This program have been inspired by one of the projects in AI class.
 
